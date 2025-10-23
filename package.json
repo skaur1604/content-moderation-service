@@ -21,7 +21,7 @@
   "start": "ts-node src/server.ts",
   "build": "tsc",
   "dev": "nodemon src/server.ts",
-  "generate-docs": "redocly build-docs src/openapi.yaml --output docs/index.html"
+ "generate-docs": "redocly build-docs docs/openapi.yaml --output docs/index.html"
   },
   "repository": {
     "type": "git",
